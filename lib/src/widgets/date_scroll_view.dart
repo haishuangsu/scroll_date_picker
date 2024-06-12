@@ -102,7 +102,7 @@ class DateScrollView extends StatelessWidget {
           style: selectedIndex == index
               ? scrollViewOptions.selectedTextStyle
               : scrollViewOptions.textStyle,
-          textScaler: TextScaler.linear(scrollViewOptions.textScaleFactor),
+          // textScaler: TextScaler.linear(scrollViewOptions.textScaleFactor),
         ),
       ),
     );
